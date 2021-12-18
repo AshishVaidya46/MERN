@@ -1,0 +1,45 @@
+.cart{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    transform: scaleY(0.98);
+}
+.box-detail{
+    justify-content: right;
+    
+}
+.image img{
+    width: 50%;
+    overflow: hidden;
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 18px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+}
+.total {
+    align-items: flex-end;
+    text-transform: capitalize;
+    border: 1.5px solid rgb(168, 161, 161);
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card_payment{
+    flex: 0.8;
+    margin-top: 10px;
+}
